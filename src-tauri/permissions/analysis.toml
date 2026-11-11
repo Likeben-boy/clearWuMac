@@ -1,0 +1,4 @@
+[[permission]]
+identifier = "allow-space-analysis"
+description = "受校验的本地扫描、索引查询与固定系统操作"
+commands.allow = ["get_app_state", "choose_scope", "list_volumes", "start_scan", "cancel_scan", "get_scan_status", "get_result_summary", "list_children", "list_large_files", "get_directory_map", "get_entry_detail", "list_entry_aliases", "list_scan_errors", "show_result", "reveal_entry", "copy_entry_path", "open_permission_settings", "get_settings", "update_settings", "quit_after_cancel", "get_ai_settings", "save_deepseek_key", "remove_deepseek_key", "prepare_ai_explanation", "explain_entry"]

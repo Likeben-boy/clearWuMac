@@ -1,0 +1,24 @@
+.ai-settings{margin-top:30px;padding-top:24px;border-top:1px solid var(--line)}
+.ai-settings h2,.ai-answer h3{display:flex;align-items:center;gap:8px;font-size:16px;margin:0;color:var(--green)}
+.ai-settings p{font-size:12px;line-height:1.8;color:#63746a}
+.ai-settings form{margin-top:18px;display:grid;gap:10px}
+.ai-settings label{font-size:13px;font-weight:600}
+.ai-settings input{width:100%;min-width:0;padding:11px 12px;border:1px solid #cbd9ce;border-radius:7px;background:white;color:var(--ink)}
+.ai-settings-actions{display:flex;flex-wrap:wrap;gap:8px}
+.ai-status{color:var(--green)!important}
+.ai-settings .query-error,.ai-answer+.query-error{flex-wrap:wrap}
+.file-table th:last-child,.file-table td:last-child{width:126px;min-width:126px;white-space:nowrap}
+.ai-row-button{display:inline-flex;align-items:center;gap:3px;padding:6px 5px;border-radius:6px;font-size:11px;color:#406d58;vertical-align:middle}
+.ai-row-button:hover,.ai-detail-button:hover{background:#eaf3e9}
+.ai-row-button .icon{width:13px;height:13px}
+.ai-detail-button{color:var(--green);border-color:#c7d8c8;background:#f4f8f0}
+dialog:has(.ai-target){max-width:650px;max-height:85vh;overflow:auto}
+.ai-target{display:flex;align-items:center;gap:8px;margin:20px 0 6px;overflow-wrap:anywhere}
+dialog .ai-disclosure{color:#506459;margin-bottom:12px}
+.ai-metadata{margin:0;padding:14px 16px;background:#f5f8f4;border:1px solid #e0e8de;border-radius:9px;font-size:12px;line-height:1.7}
+.ai-metadata>div{display:grid;grid-template-columns:76px minmax(0,1fr);gap:10px;margin:5px 0}
+.ai-metadata dt{color:#617265}.ai-metadata dd{margin:0;overflow-wrap:anywhere;white-space:pre-wrap}
+.ai-loading{display:flex;align-items:center;gap:8px;font-size:13px;padding:18px 0;color:var(--green)}
+.ai-answer{border-top:1px solid var(--line);padding-top:18px;margin-top:18px}
+.ai-answer-text{white-space:pre-wrap;overflow-wrap:anywhere;font-size:14px;line-height:1.9;margin-top:12px;color:#334b3e}
+.ai-target~.query-error{flex-wrap:wrap}.ai-target~.info-box .btn{margin-top:10px}

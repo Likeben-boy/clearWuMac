@@ -1,0 +1,45 @@
+# Dependencies and generated builds
+node_modules/
+dist/
+target/
+src-tauri/gen/
+coverage/
+
+# Project-local tools and caches
+.local-tools/
+.npm-cache/
+
+# Local settings and credentials (examples must contain placeholders only)
+.env
+.env.*
+!.env.example
+!.env.*.example
+.npmrc
+.netrc
+credentials.json
+credentials.toml
+
+# Private keys, signing material and keychain exports
+*.key
+*.pem
+*.p12
+*.pfx
+*.mobileprovision
+*.provisionprofile
+*.keychain
+*.keychain-db
+id_rsa
+id_ed25519
+
+# Scan databases and local logs
+*.sqlite*
+*.db
+*.db-shm
+*.db-wal
+*.log
+
+# Local application bundles and macOS metadata
+*.app/
+*.dmg
+.DS_Store
+._*
